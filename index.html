@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Josefin+Sans:wght@300;400;600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Sofia+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/zvw7pbp.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+      integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nutriTop">
+        <div class="nutriTop__txt">
+          <!-- <p class="nutriTop__txt-title">Sprawdź ofertę od marki...</p> -->
+          <p class="nutriHeader__test">Sprawdź ofertę od marki...</p>
+        </div>
+        <div class="nutriTop__logo">
+          <img src="./img/portableLogo.jpg" alt="" />
+        </div>
+        <div class="nutriTop__logo2">
+          <img src="./img/NB_Logo_mobile.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="nutriNav" id="allbuttons">
+        <button
+          class="nutriNav__tablink nutriNav__tablink-nb200"
+          onclick="openPage('portable', this, '#4d6f9f')"
+          id="button1">
+          Portable
+        </button>
+        <button
+          class="nutriNav__tablink nutriNav__tablink-nb606"
+          onclick="openPage('ultra', this, '#014049')"
+          id="button2">
+          Ultra
+        </button>
+        <button
+          class="nutriNav__tablink nutriNav__tablink-air"
+          onclick="openPage('air', this, '#c93527')"
+          id="button3">
+          Air Fryer
+        </button>
+      </div>
+      <div class="nutriNav2">
+        <div class="burger">
+          <i class="fas fa-bars show active"></i>
+        </div>
+        <div class="nutriNav2__menu active">
+          <button
+            class="active nutriNav__tablink2"
+            onclick="openPage('portable', this, 'white')"
+            id="defaultOpen">
+            Portable
+          </button>
+          <button
+            class="nutriNav__tablink2"
+            onclick="openPage('ultra', this, 'white')">
+            Ultra
+          </button>
+          <button
+            class="nutriNav__tablink2"
+            onclick="openPage('air', this, 'white')">
+            Air Fryer
+          </button>
+        </div>
+      </div>
+
+      <div id="portable" class="nutriMain">
+        <div class="nutriHeader headerUltra nutriHeader__200">
+          <img src="./Img/portableHeader.jpg" alt="" class="headerImg" />
+          <div class="nutriHeader__description nutriHeader__description-ultra">
+            <p class="nutriHeader__title">Blendery kielichowe</p>
+            <p class="nutriHeader__txt">
+              Nutribullet<br />
+              Portable
+            </p>
+          </div>
+        </div>
+
+        <div class="nutriSection__two">
+          <p>
+            Ruszaj w drogę z nutribullet® Portable Blender! Ten blender został
+            stworzony do pracy na pełnych obrotach! Wyposażony w wydajne
+            6-strefowe ostrze, tryb pulsacyjny z możliwością blendowania lodu
+            oraz akumulator z 15 cyklami blendowania zmiksuje smoothie, koktajle
+            proteinowe i o wiele więcej, niezależnie od tego gdzie jesteś.
+            Nutribullet® Portable Blender jest lekki, kompaktowy i gotowy do
+            blendowania w dowolnym miejscu i czasie!
+          </p>
+        </div>
+
+        <div class="nutriSection__three">
+          <div class="nutriSection__three-item">
+            <img src="./Img/Portable-475ml.jpg" alt="" />
+            <p>Kubek 475ml</p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/Portable-blade.jpg" alt="" />
+            <p>
+              Ostrza ze stali
+              <br />
+              nierdzewnej
+            </p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/Portable-ToGo-lid.jpg" alt="" />
+            <p>Pokrywa z uchwytem</p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/Portable-USB.jpg" alt="" />
+            <p>Przewód ładujący USB-C</p>
+          </div>
+        </div>
+
+        <div class="nutriSection__four">
+          <div class="nutriSection__four-img nutriSection__four-img200"></div>
+
+          <div class="nutriSection__four-txt">
+            <p class="main-title">Zamykana pokrywka</p>
+            <p class="main-description">
+              W zestawie znajduje się unikatowa, szczelnie zamykana pokrywka,
+              dzięki której podróżowanie z blenderem jest o wiele wygodniejsze i
+              bezpieczne. Pokrywka jest otwierana i zamykana za pomocą
+              intuicyjnego przycisku.
+            </p>
+          </div>
+        </div>
+
+        <div class="nutriSection__five">
+          <div class="nutriSection__five-txt">
+            <p class="main-title">Idealny dla zabieganych</p>
+            <p class="main-description">
+              Kompaktowa i lekka konstrukcja z wygodną pokrywką sprawiają, że
+              jest idealny do biura, na siłownię lub gdziekolwiek potrzebujesz!
+            </p>
+          </div>
+          <div class="nutriSection__five-img nutriSection__five-img200"></div>
+        </div>
+
+        <div class="six">
+          <p class="titleSix">Naładuj się zdrowiem</p>
+          <p class="descriptionSix">
+            Akumulator ładowany przez złącze USB-C pozwala wykonać ponad 15
+            cykli. Bezprzewodowa przyjemność blendowania.
+          </p>
+        </div>
+
+        <div class="nutriSection__seven">
+          <div class="nutriSection__seven-txt">
+            <p class="main-title">Skoncentrowana moc</p>
+            <p class="main-description">
+              Wydajne 6-strefowe ostrze ze stali nierdzewnej pozwala na
+              blendowanie mrożonych owoców, lodu i pozostałych twardych
+              składników.
+            </p>
+          </div>
+          <div class="nutriSection__seven-img nutriSection__seven-img200"></div>
+        </div>
+        <div class="nutriSection__eight">
+          <div class="nutriSection__eight-img nutriSection__eight-img200"></div>
+          <div class="nutriSection__eight-txt">
+            <p class="main-title">Wielofunkcyjny kubek</p>
+            <p class="main-description">
+              Kubek 475 ml z Tritanu™ służy do blendowania oraz wygodnego picia
+              bez bałaganu.
+            </p>
+          </div>
+        </div>
+
+        <div class="sixNew">
+          <div class="sixNewTxt">
+            <p class="titleSixNew">Tryb pulsacyjny</p>
+            <p class="descriptionSixNew">
+              Świetnie sprawdzi się do blendowania lodu oraz do przygotowania
+              sals, sosów oraz przekąsek.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="ultra" class="nutriMain">
+        <div class="nutriHeader nutriHeader606 headerUltra">
+          <img src="./Img/UltraHeader.jpg" alt="" class="headerImg" />
+          <div class="nutriHeader__description nutriHeader__description-ultra">
+            <p class="nutriHeader__title">Blendery kielichowe</p>
+            <p class="nutriHeader__txt">
+              Nutribullet<br />
+              Ultra
+            </p>
+          </div>
+        </div>
+        <div class="nutriSection__two">
+          <p>
+            Jak bez wysiłku zadbać o pełnowartościową dietę całej rodziny? Zrób
+            pierwszy krok - z rewolucyjnym Nutribullet Ultra! Ten zaawansowany
+            blender kielichowy, wyposażony w mocny, 1200-watowy silnik,
+            wytrzymałe, sześcioramienne ostrze ekstrakcyjne oraz zestaw
+            praktycznych akcesoriów, szybko przygotuje smoothie i koktajle, zupy
+            kremy, dania, desery oraz przekąski. Skutecznie uwalnia witaminy i
+            mikroelementy, niezbędne w dbaniu o zdrowie i dobre samopoczucie.
+          </p>
+        </div>
+        <div class="nutriSection__three">
+          <div class="nutriSection__three-item">
+            <img src="./Img/ultraMoc.jpg" alt="" />
+            <p>Duża moc</p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/ultraStal.jpg" alt="" />
+            <p>Ostrza ze stali nierdzewnej</p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/ultraClean.jpg" alt="" />
+            <p>Łatwe czyszczenie</p>
+          </div>
+          <div class="nutriSection__three-item">
+            <img src="./Img/ultraBPA.jpg" alt="" />
+            <p>Kubki wolne od BPA</p>
+          </div>
+        </div>
+
+        <div class="nutriSection__four">
+          <div class="nutriSection__four-img nutriSection__four-img606"></div>
+          <div class="nutriSection__four-txt">
+            <p class="nutriSection__four-title main-title">
+              Blendowanie z myślą <br class="linia2" />o środowisku
+            </p>
+            <p class="nutriSection__four-description main-description">
+              Najnowsze kubki wykonane są z trwałego Tritanu™ Renew — wykonanego
+              w 50% z certyfikowanych materiałów pochodzących z recyklingu. Są
+              odporne na codzienne użytkowanie, wolne od BPA oraz dostosowane do
+              mycia w zmywarce.
+            </p>
+          </div>
+        </div>
+
+        <div class="nutriSection__five">
+          <div class="nutriSection__five-txt">
+            <p class="main-title">Doskonałe ostrza</p>
+            <p class="main-description">
+              Ostrze Rapid Extractor ze stali nierdzewnej pokryto tytanową
+              powłoką, aby wydłużyć jego żywotność i skrócić czas blendowania.
+              Każde ostrze objęte jest 5-letnią gwarancją (istnieją
+              ograniczenia).
+            </p>
+          </div>
+          <div class="nutriSection__five-img nutriSection__five-img606"></div>
+        </div>
+
+        <div class="sixUltra">
+          <p class="titleSix">Wysoka moc, cichsza praca</p>
+          <p class="descriptionSix">
+            Silnik o mocy 1200 W, zaprojektowany tak, aby generować dźwięki o
+            niższej częstotliwości niż poprzednie modele, sprawia, że nasz
+            najbardziej wydajny blender jest również najcichszy.
+          </p>
+          <div class="shadow"></div>
+        </div>
+
+        <div class="nutriSection__seven">
+          <div class="nutriSection__seven-txt">
+            <p class="main-title">Podświetlany panel</p>
+            <p class="main-description">
+              Przyciski automatycznego cyklu blendowania i trybu pulsacyjnego
+              zapalają się natychmiast po założeniu kubka, co umożliwia wygodną
+              obsługę urządzenia.
+            </p>
+          </div>
+          <div class="nutriSection__seven-img nutriSection__seven-img606"></div>
+        </div>
+        <div class="nutriSection__eight">
+          <div class="nutriSection__eight-img nutriSection__eight-img606"></div>
+          <div class="nutriSection__eight-txt">
+            <p class="main-title">
+              Łatwość użytkowania <br class="linia2" />i czyszczenia
+            </p>
+            <p class="main-description">
+              Obsługa urządzenia jest prosta i intuicyjna – obejmuje jedynie
+              trzy kroki: wcisnąć, przekręcić i zmiksować. Także mycie blendera
+              jest szybkie i wygodne. Wystarczy umieścić poszczególne elementy
+              (z wyjątkiem ostrza u podstawy z silnikiem) w zmywarce lub umyć
+              ręcznie w ciepłej wodzie z płynem do mycia naczyń. Po osuszeniu
+              poszczególnych części, Nutribullet jest znowu gotowy do pracy.
+            </p>
+          </div>
+        </div>
+        <div class="nutriSection__nine">
+          <div class="nutriSection__nine-txt">
+            <p class="main-title">
+              W zestawie Kubek 700 ML
+              <span>(tylko dla Nutribullet NB1206DGCC)</span>
+            </p>
+            <p class="main-description">
+              Kielich o pojemności 0,7 l pozwoli przygotować dużą porcję
+              koktajlu, soku, smoothie lub zupy kremu. Umożliwia blendowanie
+              większej porcji składników jednocześnie. Wykonany z tritanu, jest
+              trwały i odporny na zarysowania czy pęknięcia.
+            </p>
+          </div>
+          <div class="nutriSection__nine-img nutriSection__nine-img606"></div>
+        </div>
+        <div class="nutriSection__ten">
+          <div class="nutriSection__ten-img nutriSection__ten-img606"></div>
+          <div class="nutriSection__ten-txt">
+            <p class="main-title">W zestawie Kubek 900 ML</p>
+            <p class="main-description">
+              W dużym, pojemnym kubku z łatwością przygotujesz zdrowe propozycje
+              dla całej rodziny! Wykonany z tritanu, nie zawierającego
+              szkodliwych związków BPA, jest wytrzymały i bezpieczny w
+              zetknięciu z produktami spożywczymi.
+            </p>
+          </div>
+        </div>
+        <div class="nutriSection__seven">
+          <div class="nutriSection__seven-txt">
+            <p class="main-title">
+              Dwie zamykane pokrywki
+              <span> (tylko dla Nutribullet NB1206DGCC)</span>
+            </p>
+            <p class="main-description">
+              Funkcjonalne pokrywki typu stay-fresh umożliwiają zabranie
+              ulubionego smoothie lub koktajlu do szkoły, pracy, na siłownię czy
+              wycieczkę. Ciesz się zdrową przekąską, gdziekolwiek zechcesz!
+              Pasują do każdego kubka z zestawu i utrzymują świeżość napoju
+              podczas przechowywania lub transportu.
+            </p>
+          </div>
+          <div class="nutriSection__seven-img nutriSection__seven-ultra"></div>
+        </div>
+        <div class="nutriSection__eight">
+          <div class="nutriSection__eight-img nutriSection__eight-ultra"></div>
+          <div class="nutriSection__eight-txt">
+            <p class="main-title">
+              Zamykana pokrywka <span>(tylko dla Nutribullet NB1004DGCC)</span>
+            </p>
+            <p class="main-description">
+              W dużym, pojemnym kubku z łatwością przygotujesz zdrowe propozycje
+              dla całej rodziny! Wykonany z tritanu, nie zawierającego
+              szkodliwych związków BPA, jest wytrzymały i bezpieczny w
+              zetknięciu z produktami spożywczymi.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="air" class="nutriMain">
+        <div class="nutriHeader nutriHeader606 headerUltra">
+          <img src="./Img/nutribulletMain.jpg" alt="" class="headerImg" />
+          <div class="nutriHeader__description-air">
+            <p class="nutriHeader__title">Frytkownica</p>
+            <p class="nutriHeader__txt2">
+              nutribullet®<br />
+              XXL Digital<br />
+              Air Fryer
+            </p>
+          </div>
+        </div>
+        <div class="nutriSection__two">
+          <p>
+            Zdrowe gotowanie nie musi oznaczać rezygnacji z pełnego smaku,
+            wygody czy oszczędności czasu. Z Nutribullet XXL Digital Air Fryer
+            możesz przygotować ulubione dania oraz aromatyczne przekąski
+            szybciej niż dotychczas i z mniejszą zawartością tłuszczu – w trosce
+            o zdrową dietę całej rodziny. To wielofunkcyjne urządzenie,
+            wyposażone w pojemną, 7-litrową misę i 1800 W mocy umożliwia
+            pieczenie, smażenie a nawet suszenie, np. owoców i grzybów, aby
+            zachować ich smak i wartości odżywcze poza sezonem. Konwekcja 360°
+            zapewnia wydajną pracę i równomierną temperaturę wewnątrz misy dla
+            uzyskania idealnej konsystencji dań i skrócenia czasu ich
+            przygotowania. Pełne smaku, chrupiące propozycje w zdrowszym
+            wydaniu? Teraz to możliwe!
+          </p>
+        </div>
+        <div class="nutriSection__threeAir">
+          <div class="nutriSection__threeAir-item">
+            <img src="./Img/konwekcja.png" alt="" />
+            <p>Konwekcja 360°</p>
+          </div>
+          <div class="nutriSection__threeAir-item clean">
+            <img src="./Img/czyszczenie.png" alt="" />
+            <p>Łatwe czyszczenie</p>
+          </div>
+          <div class="nutriSection__threeAir-item">
+            <img src="./Img/wyswietlacz.png" alt="" />
+            <p>Dotykowy wyświetlacz</p>
+          </div>
+          <div class="nutriSection__threeAir-item">
+            <img src="./Img/programy.png" alt="" />
+            <p>8 programów gotowania</p>
+          </div>
+          <div class="nutriSection__threeAir-item">
+            <img src="./Img/misa.png" alt="" />
+            <p>Pojemna <br />7-litrowa misa</p>
+          </div>
+        </div>
+
+        <div class="nutriSection__four">
+          <div class="nutriSection__four-img nutriSection__four-air"></div>
+          <div class="nutriSection__four-txt">
+            <p class="nutriSection__four-title main-title">Frytki 2.0</p>
+            <p class="nutriSection__four-description main-description">
+              W Air Fryer z łatwością przygotujesz ulubione frytki z minimalną
+              ilością oleju a zaawansowane technologie urządzenia gwarantują, że
+              będą złociste i chrupiące. Ten niezawodny pomocnik w codziennym
+              gotowaniu otwiera wiele możliwości kulinarnych kreacji. Możesz
+              zacząć od doboru dowolnego gatunku ziemniaków na frytki (w tym,
+              np. fioletowych, które zachwycą zwłaszcza najmłodszych smakoszy),
+              poprzez wykorzystanie batatów i warzyw korzeniowych – m.in.
+              marchewki, pietruszki, selera, pasternaku, topinamburu lub buraków
+              – po pyszne eksperymenty z mniej oczywistymi dla tej przekąski
+              składnikami, np. cukinią czy bakłażanem.
+            </p>
+          </div>
+        </div>
+
+        <div class="nutriSection__five">
+          <div class="nutriSection__five-txt">
+            <p class="main-title">Zdrowe posiłki dla całej rodziny</p>
+            <p class="main-description">
+              Praktyczna, 7-litrowa misa ułatwia skomponowanie
+              pełnowartościowego posiłku dla całej rodziny. Jej pojemność
+              umożliwia upieczenie kurczaka lub kaczki w całości a jedocześnie,
+              w zależności od potrzeb, przygotowanie mniejszej porcji, np.
+              przystawki, szybko i bez wysiłku. Urządzenie automatycznie
+              dostosowuje czas gotowania, aby zrekompensować utratę ciepła i
+              zapewnić perfekcyjne rezultaty za każdym razem.
+            </p>
+          </div>
+          <div class="nutriSection__five-img nutriSection__five-air"></div>
+        </div>
+        <div class="nutriSection__eight">
+          <div class="nutriSection__eight-img nutriSection__eight-air"></div>
+          <div class="nutriSection__eight-txt">
+            <p class="main-title">
+              Konwekcja 360° – moc kulinarnych możliwości
+              <br class="linia2" />
+              na okrągło
+            </p>
+            <p class="main-description">
+              Unikalna technologia zapewnia stałą, równomierną temperaturę
+              wewnątrz misy, co pozwala uzyskać idealną teksturę przetwarzanych
+              składników oraz skraca czas przygotowania dania. A to wszystko
+              przy minimalnej ilości tłuszczu w trosce o zdrową dietę.
+            </p>
+          </div>
+        </div>
+
+        <div class="sixAir">
+          <p class="titleSixAir">Łatwość obsługi z 8 programami gotowania</p>
+          <p class="descriptionSixAir">
+            Nutribullet XXL Digital Air Fryer to więcej niż beztłuszczowa
+            frytkownica. Piecze, smaży a nawet umożliwia suszenie owoców czy
+            grzybów, żeby zachować ich smak, aromat i wartości odżywcze na
+            dłużej. Obsługa urządzenia jest niezwykle prosta – wystarczy wybrać
+            jeden z 8 automatycznych programów lub ręcznie ustawić czas i
+            temperaturę pieczenia, aby cieszyć się perfekcyjnie przygotowanym
+            posiłkiem.
+          </p>
+        </div>
+
+        <div class="nutriSection__seven">
+          <div class="nutriSection__seven-txt">
+            <p class="main-title">
+              Komfort czyszczenia <br class="linia2" />
+              i stylowy design
+            </p>
+            <p class="main-description">
+              Nie tylko codzienne użytkowanie, ale też czyszczenie urządzenia
+              jest proste i wygodne. Misę z nieprzywierającą powłoką oraz ruszt
+              do pieczenia można myć zmywarce. Wykonane z trwałych materiałów,
+              wolnych od BPA – czyli szkodliwych dla zdrowia związków
+              organicznych z grupy fenoli – są bezpieczne w zetknięciu z
+              produktami spożywczymi. Kompaktowe wymiary i dopracowany design
+              Nutribullet XXL Digital Air Fryer sprawiają, że świetnie komponuje
+              się zarówno z nowoczesnym, jak i tradycyjnym wystrojem kuchni.
+            </p>
+          </div>
+          <div class="nutriSection__seven-img nutriSection__seven-air"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
